@@ -9,6 +9,7 @@ USB - UART Bridge
 1. Download and install the [usb to uart bridge](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) here.
 1. Check this is working on Windows, open an Explorer, right-click on Computer and select Manage
 1. In Computer Management, open System Tools and select Device Manager.
+1. Plug in the ESP32 usb connected board
 1. Select Ports. Here you should see Silicon Labs CP210x USB UART bridge (COMx)
 
 If you can, this will verify that the driver is present. 
