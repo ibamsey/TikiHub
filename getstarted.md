@@ -3,21 +3,16 @@ Notes on Getting Started
 
 These notes document the process followed to get started.
 
-USB - UART Bridge
+Whitecat Agent
 ------------------
 
-1. Download and install the [usb to uart bridge](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) here.
-1. Check this is working on Windows, open an Explorer, right-click on Computer and select Manage
-1. In Computer Management, open System Tools and select Device Manager.
+1. Download and install the [whitecat agent](https://github.com/whitecatboard/whitecat-create-agent/wiki) here.
 1. Plug in the ESP32 usb connected board
-1. Select Ports. Here you should see Silicon Labs CP210x USB UART bridge (COMx)
 
-If you can, this will verify that the driver is present. 
 
 Connection to ESP32 Board
 -------------------------
 
-1. Plug in your board.
 1. In the Windows Start, use the search to find and start Terminal
 1. Select the COM port (x) from port shown in the Ports list in the section above (e.g. COM3
 1. With Speed set to 115200, connect
