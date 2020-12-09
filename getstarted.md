@@ -11,4 +11,7 @@ These notes document the process followed to get started.
   * Run the eclipse.exe from the install directory of eclipse. Set a workspace and check in this directory
     and find the \eclipse-workspace\.metadata Open the .log file. Ensure Eclipse is starting with Java 11. If not, 
     the esp-idf plugins wont work and eclipse wont start once they are installed.
+  * You must set the paths in the ESP-IDF Tool Manager (See Ecplise Help>IDF-Tool Manager>Install Tools. Make sure the ESP-IDF path point the the esp-idf directort
+    and not the directory in which you place the esp-idf directory!
+    
     
