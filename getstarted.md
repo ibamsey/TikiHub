@@ -14,4 +14,5 @@ These notes document the process followed to get started.
   * You must set the paths in the ESP-IDF Tool Manager (See Ecplise Help>IDF-Tool Manager>Install Tools. Make sure the ESP-IDF path point the the esp-idf directort
     and not the directory in which you place the esp-idf directory!
     
-    
+  * Follow the instructions https://github.com/espressif/idf-eclipse-plugin
+  * Changing the baud rate in the sdkconfig file for the project did not change the acutal serial flasher baud rate. I manually changed it to 115200 in \esp-idf\tools\idf_py_actions\serial_ext.py. This work and my first program compiled and loaded to the board. Using the serial monitor I can see the programming is running.
