@@ -1,6 +1,15 @@
 Notes on Getting Started
 =========================
 
+Below are notes on starting with VSCode and Platformio
+----------------------------------------------------------
+1. Follow instructions here https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/
+1. Run the serial example here https://randomnerdtutorials.com/esp32-bluetooth-classic-arduino-ide/
+
+
+
+Below are notes on starting using Eclipse
+------------------------------------------
 These notes document the process followed to get started.
 
 1. Follow the instructions https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#
